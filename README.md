@@ -10,3 +10,5 @@
 permutation of numbers.](https://github.com/yuxinfeng/applo_letcode/blob/master/Second/Solution.java)
 3. [Third: sum-three](https://github.com/yuxinfeng/applo_letcode/blob/master/Third/Solution1.java)
 4. [Forth: Implement strStr()](https://github.com/yuxinfeng/applo_letcode/blob/master/Forth/problem_strStr)
+5. [Fivth: Two Sum]
+6. [Sixth: Add Two Numbers]
