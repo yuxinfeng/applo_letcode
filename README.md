@@ -11,5 +11,7 @@ permutation of numbers.](https://github.com/yuxinfeng/applo_letcode/blob/master/
 3. [Third: sum-three](https://github.com/yuxinfeng/applo_letcode/blob/master/Third/Solution1.java)
 4. [Forth: Implement
    strStr()](https://github.com/yuxinfeng/applo_letcode/blob/master/Forth/Solution2.java)
-5. [Fivth: Two Sum]
-6. [Sixth: Add Two Numbers]
+   [Fifth:Longest Valid
+   Parentheses](https://github.com/yuxinfeng/applo_letcode/blob/master/Fifth/SolutionFivfth.java)
+5. [Sixth: Two Sum]
+6. [Seventh: Add Two Numbers]
