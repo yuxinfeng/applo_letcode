@@ -13,6 +13,8 @@ permutation of numbers.](https://github.com/yuxinfeng/applo_letcode/blob/master/
    strStr()](https://github.com/yuxinfeng/applo_letcode/blob/master/Forth/Solution2.java)
 5. [Fifth:Longest Valid
    Parentheses](https://github.com/yuxinfeng/applo_letcode/blob/master/Fifth/SolutionFivfth.java)
-6. [Sixth: Two Sum](https://github.com/yuxinfeng/applo_letcode/blob/master/Fifth/SolutionSixTh.java)
+6. [Sixth: Two Sum](https://github.com/yuxinfeng/applo_letcode/blob/master/Sixth/SolutionSixTh.java)
 
-7. [Seventh: Add Two Numbers](https://github.com/yuxinfeng/applo_letcode/blob/master/Fifth/SolutionSixTh.java)
+7. [Seventh: Add Two Numbers](https://github.com/yuxinfeng/applo_letcode/blob/master/Seventh/SolutionSeventh.java)
+9. [Nigth: find Meditor in Two Sorted
+   Array](https://github.com/yuxinfeng/applo_letcode/blob/master/Nigth/src/Solution.java)
