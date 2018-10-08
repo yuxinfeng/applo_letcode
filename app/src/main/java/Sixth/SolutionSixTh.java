@@ -1,3 +1,5 @@
+package Sixth;
+
 import java.util.HashMap;
 
 /**

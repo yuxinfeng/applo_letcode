@@ -1,3 +1,5 @@
+package First;
+
 import java.util.HashMap;
 /**
  * Created by yuxinfeng on 17/3/12.

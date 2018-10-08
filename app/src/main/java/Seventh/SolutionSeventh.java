@@ -1,3 +1,5 @@
+package Seventh;
+
 /**
  * Created by yuxinfeng on 17/4/20.
  */
