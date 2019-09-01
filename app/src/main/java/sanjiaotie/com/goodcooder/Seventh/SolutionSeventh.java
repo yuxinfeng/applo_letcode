@@ -1,4 +1,4 @@
-package Seventh;
+package sanjiaotie.com.goodcooder.Seventh;
 
 /**
  * Created by yuxinfeng on 17/4/20.

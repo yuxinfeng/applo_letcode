@@ -1,12 +1,9 @@
-package interfaceanotion;
-
-import sanjiaotie.com.interface_apt.AutoInterface;
+package sanjiaotie.com.goodcooder.interfaceanotion;
 
 // import sanjiaotie.com.interface_apt.AutoInterface;
 
 public class Man {
 
-    @AutoInterface("Hello")
     public void eat() {
         System.out.println("Eat");
     }

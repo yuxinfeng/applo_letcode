@@ -1,4 +1,4 @@
-package Sixth;
+package sanjiaotie.com.goodcooder.Sixth;
 
 import java.util.HashMap;
 
