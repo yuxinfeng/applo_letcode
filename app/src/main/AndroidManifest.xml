@@ -16,6 +16,15 @@
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
         </activity>
+        <service
+            android:name=".aidldemo.ServerService"
+            android:process=":remote">
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <action android:name="sanjiaotie.com.goodcooder.aidldemo.ServerService"/>
+            </intent-filter>
+        </service>
+
     </application>
 
 </manifest>
