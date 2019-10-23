@@ -32,6 +32,25 @@ public class MainActivity extends Activity  implements View.OnClickListener {
         }
     };
 
+    private IBinder.DeathRecipient deathRecipient = new IBinder.DeathRecipient() {
+        @Override
+        public void binderDied() {
+            if (mIBookManager == null) {
+                return;
+            }
+            mIBookManager.asBinder().unlinkToDeath(deathRecipient, 0);
+            mIBookManager = null;
+            // 重新绑定binder
+            Intent intentService = new Intent();
+            intentService.setAction("sanjiaotie.com.goodcooder.aidldemo.ServerService");
+            intentService.setPackage(getPackageName());
+            intentService.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+            bindService(intentService, mServiceConnection, BIND_AUTO_CREATE);
+            Toast.makeText(getApplicationContext(),"绑定了服务",Toast.LENGTH_SHORT).show();
+
+        }
+    };
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -53,7 +72,11 @@ public class MainActivity extends Activity  implements View.OnClickListener {
                 intentService.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
                 this.bindService(intentService, mServiceConnection, BIND_AUTO_CREATE);
                 Toast.makeText(getApplicationContext(),"绑定了服务",Toast.LENGTH_SHORT).show();
-
+                try {
+                    mIBookManager.asBinder().linkToDeath(deathRecipient, 0);
+                } catch (RemoteException e) {
+                    e.printStackTrace();
+                }
                 break;
             }
             case R.id.addBook:{
